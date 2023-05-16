@@ -1,25 +1,4 @@
-<div class="row">
-    <div class="col-8 m-auto">
-      <form [formGroup]="formGroupClient">
-        <div class="form-group">
-          <label for="name">Nome: </label>
-          <input type="text" formControlName="name" class="form-control" id="name" placeholder="Enter name">
-        </div>
-        <div class="mb-3">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" formControlName="email" id="email" placeholder="Enter email">
-        </div>
-      </form>
-      <div class="mb-3 d-flex justify-content-end">
-        <button class="btn btn-secondary" (click)="save()">Salvar</button>
-    
-      </div>
-    </div>
-    </div>
-    
-    
-    
-    
+<div class="row">    
     <table class="table table-striped">
       <thead>
         <tr>
@@ -32,13 +11,13 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let client of clients">
-          <th scope="row">{{ client.id }}</th>
-          <td>{{client.name}}</td>
-          <td>{{client.marca}}</td>
-          <td>{{client.qtdEstoque}}</td>
-          <td>{{client.qtd}}</td>
-          <td>R${{client.preco}}</td>
+        <tr *ngFor="let produto of Produtos">
+          <th scope="row">{{ produto.id }}</th>
+          <td>{{produto.name}}</td>
+          <td>{{produto.marca}}</td>
+          <td>{{produto.qtdEstoque}}</td>
+          <td>{{produto.qtd}}</td>
+          <td>R${{produto.preco}}</td>
         </tr>
       </tbody>
     </table>
