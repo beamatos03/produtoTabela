@@ -1,0 +1,44 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Hidratante Labial",
+      "marca": "Carmed",
+      "qtdEstoque": 5,
+      "qtd": "10 g",
+      "preco": 10.50
+    },
+    {
+        "id": 2,
+        "name": "Loção Hidratante",
+        "marca": "Nivea",
+        "qtdEstoque": 15,
+        "qtd": "200 ml",
+        "preco": 29.25
+    },
+    {
+        "id": 3,
+        "name": "Antisséptico Bucal",
+        "marca": "Colgate",
+        "qtdEstoque": 80,
+        "qtd": "250 ml",
+        "preco": 22.99
+      },
+    {
+        "id": 4,
+        "name": "Desodorante",
+        "marca": "Rexona",
+        "qtdEstoque": 100,
+        "qtd": "50 ml",
+        "preco": 6.99
+    },
+    {
+        "id": 5,
+        "name": "Condicionador",
+        "marca": "Head & Shoulders",
+        "qtdEstoque": 70,
+        "qtd": "200 ml",
+        "preco": 12.99
+          }
+        ]
+      }
